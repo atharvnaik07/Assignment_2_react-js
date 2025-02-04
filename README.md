@@ -2,23 +2,32 @@
 
 ## Description
 This assignment demonstrates how to use React props to pass data between a parent and a child component. The application consists of two implementations:
+## 🚀 Features  
+- Modular component-based architecture  
+- Dynamic state handling using React Hooks  
+- Props-driven data flow  
+- Responsive UI design  
+- Clean and maintainable code  
 
-1. **React Props Example (No Output After Submit):**
-   - User submits their name and email through a form.
-   - The data is stored in the state but is not displayed after submission.
-   - The output remains hidden even after form submission.
+## 📂 Project Structure  
+```
+/src  
+  ├── components/   # Reusable React components  
+  ├── pages/        # Page-level components  
+  ├── assets/       # Static assets (images, styles, etc.)  
+  ├── App.js        # Main application component  
+  ├── index.js      # Entry point  
+```
 
-2. **React Props Example (With Output Displayed After Submit):**
-   - User submits their name and email through a form.
-   - The submitted data is passed to the child component and displayed immediately.
-   - The form fields are cleared after submission.
-
-## Technologies Used
-- React.js
-- JavaScript (ES6)
+## 🛠️ Technologies Used  
+- React.js  
+- JavaScript (ES6+)  
+- HTML & CSS  
+- React Hooks (useState, useEffect)  
 - JSX
 
-## Installation and Usage
+
+## Installation and Usage 
 1. Clone the repository or copy the code files into your React project.
 2. Navigate to the project directory.
 3. Install dependencies (if not already installed):
